@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+    <title>Fresh Box</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+ 
+
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-light"
+      style="background-color: #faf9f9"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img
+            src="icons/smile-beam.svg"
+            alt=""
+            width="35"
+            class="d-inline-block"
+          />
+          Fresh Box</a
+        >
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto mx-5">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Meal Kits</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+
+            <li class="view-cart-button nav-item">
+              <a class="nav-link btn-warning text-light" href="viewCart.html">
+                View Cart <span>(0)</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+<main>
+    <section class="about">
+
+      
+
+      <div class="about-contents">
+        <h1 class="display-5 ">Meal Kits</h1>
+        <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Pariatur, velit est vel modi dignissimos unde eos molestiae rem quisquam quia eveniet magni et explicabo illo eum itaque necessitatibus natus possimus.</p>
+        <br/>
+       
+      </div>
+
+
+      <ul class="nav nav-pills justify-content-center" >
+      
+        <li class="nav-item">
+          <a class="nav-link" href="#appetisers">Appetisers</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#mains">Mains</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#desserts">Desserts</a>
+        </li>
+        
+      </ul>
+
+      <div class="subheader">
+        <h2 class="display-6" id="appetisers"> Appetisers</h2>
+      </div>
+
+      <div class= "mealKits" >
+      
+          <div class="item salad" >
+            <div class="card mx-auto d-block border" style="width: 15rem">
+              <img src="images/salad-1.jpeg" class="shop-item-image card-img-top" alt="caesar salad" 
+              />
+              <div class="card-body">
+                <h5 class="card-title badge bg-warning text-light">New</h5>
+                <h5 class="shop-item-title card-text">Caesar Salad</h5>
+                <p class="shop-item-price">$ 8.99</p>
+                <button type="button" class="view-btn btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#salad-1">View</button>
+                <button type="button" class="addToCart-btn btn btn-success">Add to Cart</button>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="wrapper">
+          
+          </div>
+          
+            <div class=" item salad">
+  
+              <div class="card mx-auto d-block border" style="width: 15rem">
+                <img src="images/salad-2.jpeg" class="shop-item-image card-img-top" alt="garden salad" 
+                />
+                <div class="card-body">
+                  <h5 class="card-title badge bg-success text-light">Vegan</h5>
+                  <h5 class="shop-item-title card-text">Garden Salad</h5>
+                  <p class="shop-item-price">$ 6.99</p>
+                  <button type="button" class="view-btn btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#salad-2">View</button>
+                  <button type="button" class="addToCart-btn btn btn-success">Add to Cart</button>
+  
+                </div>
+              </div>
+          </div>
+          <div class="wrapper">
+          
+          </div>
+          
+            <div class="item soup">
+  
+              <div class="card mx-auto d-block border" style="width: 15rem">
+                <img src="images/soup-1.jpeg" class="shop-item-image card-img-top" alt="french onion soup" 
+                />
+                <div class="card-body">
+                  <h5 class="card-title badge bg-white text-light">#</h5>
+                  <h5 class="shop-item-title card-text">French Onion Soup</h5>
+                  <p class="shop-item-price">$ 4.99</p>
+                  <button type="button" class="view-btn btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#soup-1">View</button>
+                  <button type="button" class="addToCart-btn btn btn-success">Add to Cart</button>
+  
+                </div>
+              </div>
+          </div>
+        
+          
+            
+
+
+
+        </div>
+        
+          <div class="subheader">
+            <h2 class="display-6" id="mains"> Mains</h2>
+          </div>
+
+          <div class= "mealKits" >
+          <div class="item pizza" >
+            <div class="card mx-auto d-block border" style="width: 15rem">
+              <img src="images/pizza-1.jpeg" class="shop-item-image card-img-top" alt="vegan pizza" 
+              />
+              <div class="card-body">
+                <h5 class="card-title badge bg-success text-light">Vegan</h5>
+                <h5 class="shop-item-title card-text">Olive & Basil Pizza</h5>
+                <p class="shop-item-price">$ 11.99</p>
+
+              
+                <button type="button" class="view-btn btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#pizza-1">View</button>
+                <button type="button" class="addToCart-btn btn btn-success">Add to Cart</button>
+
+              </div>
+            </div>
+        </div>
+
+        <div class="wrapper">
+          
+        </div>
+        
+
+          <div class=" item pho">
+
+            <div class="card mx-auto d-block border" style="width: 15rem">
+              <img src="images/pho-1.jpeg" class="shop-item-image card-img-top" alt="spicy pho" 
+              />
+              <div class="card-body">
+                <h5 class="card-title badge bg-danger text-light">Spicy</h5>
+                <h5 class="shop-item-title card-text">Seafood Pho</h5>
+                <p class="shop-item-price">$ 7.99</p>
+                <button type="button" class="view-btn btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#pho-1">View</button>
+                <button type="button" class="addToCart-btn btn btn-success">Add to Cart</button>
+
+              </div>
+            </div>
+        </div>
+
+        <div class="wrapper">
+          
+        </div>
+        
+
+          <div class="item rice">
+
+            <div class="card mx-auto d-block border" style="width: 15rem">
+              <img src="images/rice-1.jpeg" class="shop-item-image card-img-top" alt="mixed fried rice" 
+              />
+              <div class="card-body">
+                <h5 class="card-title badge bg-white text-light">#</h5>
+                <h5 class="shop-item-title card-text">Mixed Fried Rice</h5>
+                <p class="shop-item-price">$ 10.99</p>
+                <button type="button" class="view-btn btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#rice-1">View</button>
+                <button type="button" class="addToCart-btn btn btn-success">Add to Cart</button>
+
+              </div>
+            </div>
+        </div>
+
+      </div>
+     
+      <div class="subheader">
+        <h2 class="display-6 " id="desserts"> Desserts</h2>
+      </div>
+
+      <div class= "mealKits" >
+
+        <div class="item cake">
+
+          <div class="card mx-auto d-block border" style="width: 15rem">
+            <img src="images/cake-1.jpeg" class="shop-item-image card-img-top" alt="chocolate cake" 
+            />
+            <div class="card-body">
+              <h5 class="card-title badge bg-white text-light">#</h5>
+              <h5 class="shop-item-title card-text">Chocolate Cake</h5>
+              <p class="shop-item-price">$ 10.99</p>
+              <button type="button" class="view-btn btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#cake-1">View</button>
+              <button type="button" class="addToCart-btn btn btn-success">Add to Cart</button>
+
+            </div>
+          </div>
+      </div>
+
+      <div class="wrapper">
+          
+      </div>
+      
+
+        <div class="item crepe">
+
+          <div class="card mx-auto d-block border" style="width: 15rem">
+            <img src="images/crepe-1.jpeg" class="shop-item-image card-img-top" alt="caramel crepe" 
+            />
+            <div class="card-body">
+              <h5 class="card-title badge bg-white text-light">#</h5>
+              <h5 class="shop-item-title card-text">Caramel Crepe</h5>
+              <p class="shop-item-price">$ 14.99</p>
+              <button type="button" class="view-btn btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#crepe-1">View</button>
+              <button type="button" class="addToCart-btn btn btn-success">Add to Cart</button>
+
+            </div>
+          </div>
+      </div>
+
+      <div class="wrapper">
+          
+      </div>
+      
+
+        <div class="item tart">
+
+          <div class="card mx-auto d-block border" style="width: 15rem">
+            <img src="images/tart-1.jpeg" class="shop-item-image card-img-top" alt="blackberry tart" 
+            />
+            <div class="card-body">
+              <h5 class="card-title badge bg-white text-light">#</h5>
+              <h5 class="shop-item-title card-text">Blackberry Tart</h5>
+              <p class="shop-item-price">$ 8.99</p>
+              <button type="button" class="view-btn btn btn-outline-secondary" data-bs-toggle="modal" data-bs-target="#tart-1">View</button>
+              <button type="button" class="addToCart-btn btn btn-success">Add to Cart</button>
+
+            </div>
+          </div>
+      </div>
+  </div>
+    
+      </section>
+
+      <div class="wrapper"></div>
+
+      <a class="checkout-btn" href="viewCart.html"
+        ><button class="checkout-btn btn btn-warning text-light btn-purchase" type="button">
+          Proceed to Check Out
+        </button></a
+      >
+
+
+      <div class="wrapper"></div>
+      
+
+      <!-- ======================
+  ITEM MODALS
+============================= -->
+
+
+  <!-- Modal - Salad -->
+  <div class="modal fade" id="salad-1" tabindex="-1" aria-labelledby="salad" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="shop-item-title modal-title display-5" id="exampleModalLabel">Caesar Salad</h3>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-7">
+                  <img src="images/salad-1.jpeg" class="" alt="caesar salad" 
+                  />
+              </div>
+
+            <div class="col-5 ms-auto">
+
+                <h3 class="card-title badge bg-warning text-light" >New</h3>
+                <br>
+                <h5>Cooking/Prep Time:<h5>
+                  <h6>6 mins</h6>
+                  <br>
+
+                  <h5>Serves:<h5>
+                    <h6>1-2 people</h6>
+                    <br>
+
+                  <h5>Ingredients provided:</h5>
+                  <p>
+                    <ul>
+                      <li>Romaine lettuce</li>
+                      <li>Parmesan cheese</li>
+                      <li>Croutons</li>
+                      <li>Caesar salad dressing</li>
+                    </ul>
+                  </p>
+
+              </div>
+            </div>
+
+          </div>
+        <div class="modal-footer">
+         
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Back</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!-- /Modal - Salad -->
+
+
+   <!-- Modal - Salad 2-->
+   <div class="modal fade" id="salad-2" tabindex="-1" aria-labelledby="salad" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="shop-item-title modal-title display-5" id="exampleModalLabel">Garden Salad</h3>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-7">
+                  <img src="images/salad-2.jpeg" class="" alt="garden salad" 
+                  />
+              </div>
+
+            <div class="col-5 ms-auto">
+
+                <h3 class="card-title badge bg-success text-light" >Vegan</h3>
+                <br>
+                <h5>Cooking/Prep Time:<h5>
+                  <h6>10 mins</h6>
+                  <br>
+
+                  <h5>Serves:<h5>
+                    <h6>1-2 people</h6>
+                    <br>
+
+                  <h5>Ingredients provided:</h5>
+                  <p>
+                    <ul>
+                      <li>Romaine lettuce</li>
+                      <li>Tomatoes</li>
+                      <li>Purple Cabbage</li>
+                      <li>Corn</li>
+                      <li>Balsamic Dressing</li>
+                    </ul>
+                  </p>
+
+              </div>
+            </div>
+
+          </div>
+        <div class="modal-footer">
+         
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Back</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!-- /Modal - Salad 2-->
+
+  <!-- Modal - Soup 1 -->
+  <div class="modal fade" id="soup-1" tabindex="-1" aria-labelledby="soup" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="shop-item-title modal-title display-5" id="exampleModalLabel">French Onion Soup</h3>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-7">
+                  <img src="images/soup-1.jpeg" class="" alt="french onion soup" 
+                  />
+              </div>
+
+            <div class="col-5 ms-auto">
+
+                <br>
+                <h5>Cooking/Prep Time:<h5>
+                  <h6>35 mins</h6>
+                  <br>
+
+                  <h5>Serves:<h5>
+                    <h6>3-4 people</h6>
+                    <br>
+
+                  <h5>Ingredients provided:</h5>
+                  <p>
+                    <ul>
+                      <li>Onion</li>
+                      <li>Parsley</li>
+                      <li>Croutons</li>
+                      <li>Beef Stock</li>
+                    </ul>
+                  </p>
+
+              </div>
+            </div>
+
+          </div>
+        <div class="modal-footer">
+         
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Back</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <!-- /Modal - Soup 1 -->
+
+   
+  <!-- Modal - Pizza -->
+
+<div class="modal fade" id="pizza-1" tabindex="-1" aria-labelledby="pizza" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class=" modal-content">
+        <div class="modal-header">
+          <h3 class="shop-item-title modal-title display-5" id="exampleModalLabel">Olive & Basil Pizza</h3>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-7">
+                  <img src="images/pizza-1.jpeg" class="" alt="vegan pizza" 
+                  />
+                
+              </div>
+              <div class="col-5 ms-auto">
+                <h3 class="card-title badge bg-success text-light">Vegan</h3>
+                
+                <br>
+                <h5>Cooking/Prep Time:<h5>
+                  <h6>30 mins</h6>
+                  <br>
+                
+
+                  <h5>Serves:<h5>
+                    <h6>2-3 people</h6>
+                    <br>
+
+                  <h5>Ingredients provided:</h5>
+                  <p>
+                    <ul>
+                      <li>Pizza Crust</li>
+                      <li>Vegan cheese</li>
+                      <li>Tomato Sauce</li>
+                      <li>Olives</li>
+                      <li>Mushrooms</li>
+                      <li>Basil Leaves</li>
+                      <li>Chili Flakes</li>
+                    </ul>
+                  </p>
+
+              </div>
+            </div>
+
+          </div>
+        <div class="modal-footer">
+      
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Back</button> 
+
+        </div>
+      </div>
+    </div>
+  </div>
+  </div> 
+
+  <!-- /Modal - Pizza -->
+
+
+  <!-- Modal - Pho -->
+ <div class="modal fade" id="pho-1" tabindex="-1" aria-labelledby="pho" aria-hidden="true"> 
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="shop-item-title modal-title display-5" id="exampleModalLabel">Seafood Pho</h3>
+      
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-7">
+                  <img src="images/pho-1.jpeg" class="" alt="seafood pho" 
+                  />
+                
+              </div>
+              <div class="col-5 ms-auto">
+
+                <h3 class="card-title badge bg-danger text-light">Spicy</h3>
+                <br>
+                <h5>Cooking/Prep Time:<h5>
+                  <h6>15 mins</h6>
+                  <br>
+
+                  <h5>Serves:<h5>
+                    <h6>1 person</h6>
+                    <br>
+
+                  <h5>Ingredients provided:</h5>
+                  <p>
+                    <ul>
+                      <li>Rice Noodles</li>
+                      <li>Chicken Stock</li>
+                      <li>Prawns</li>
+                      <li>Squid</li>
+                      <li>Chili</li>
+                      <li>Lime</li>
+                      <li>Soy Sauce</li>
+                      <li>Fish Sauce</li>
+                      <li>Onion</li>
+                      <li>Pepper</li>
+                      <li>Thai Basil Leaves</li>
+                    </ul>
+                  </p>
+
+              </div>
+            </div>
+
+          </div>
+        <div class="modal-footer"> 
+
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Back</button> 
+
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- /Modal - Pho -->
+
+
+   <!-- Modal - Rice 1 -->
+ <div class="modal fade" id="rice-1" tabindex="-1" aria-labelledby="rice" aria-hidden="true"> 
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="shop-item-title modal-title display-5" id="exampleModalLabel">Fried Rice</h3>
+    
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-7">
+                <img src="images/rice-1.jpeg" class="" alt="mixed fried rice" 
+                />
+              
+            </div>
+            <div class="col-5 ms-auto">
+
+             
+              <br>
+              <h5>Cooking/Prep Time:<h5>
+                <h6>15 mins</h6>
+                <br>
+
+                <h5>Serves:<h5>
+                  <h6>2 person</h6>
+                  <br>
+
+                <h5>Ingredients provided:</h5>
+                <p>
+                  <ul>
+                    <li>Rice </li>
+                    <li>Chicken Stock</li>
+                    <li>Egg</li>
+                    <li>Carrot</li>
+                    <li>Spring Onions</li>
+                    <li>Garlic</li>
+                    <li>Soy Sauce</li>
+                    <li>Fish Sauce</li>
+                    <li>Onion</li>
+                    <li>Pepper</li>
+                    
+                  </ul>
+                </p>
+
+            </div>
+          </div>
+
+        </div>
+      <div class="modal-footer"> 
+
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Back</button> 
+
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!-- /Modal - Pho -->
+ 
+    <!-- Modal - Chocolate Cake -->
+ <div class="modal fade" id="cake-1" tabindex="-1" aria-labelledby="cake" aria-hidden="true"> 
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="shop-item-title modal-title display-5" id="exampleModalLabel">Chocolate Cake</h3>
+    
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-7">
+                <img src="images/cake-1.jpeg" class="" alt="chocolate cake" 
+                />
+              
+            </div>
+            <div class="col-5 ms-auto">
+
+              
+              <br>
+              <h5>Cooking/Prep Time:<h5>
+                <h6>45 mins</h6>
+                <br>
+
+                <h5>Serves:<h5>
+                  <h6>5-8 person</h6>
+                  <br>
+
+                <h5>Ingredients provided:</h5>
+                <p>
+                  <ul>
+                    <li>Flour</li>
+                    <li>Egg</li>
+                    <li>Dark Chocolate</li>
+                    <li>Whipping Cream</li>
+                    <li>Sugar</li>
+                    <li>Milk</li>
+                    <li>Vanilla Essence</li>
+                    <li>Baking Powder</li>
+                    <li>Butter</li>
+                   
+                  </ul>
+                </p>
+
+            </div>
+          </div>
+
+        </div>
+      <div class="modal-footer"> 
+
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Back</button> 
+
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!-- /Modal - Chocolate Cake -->
+
+ <!-- Modal - Caramel Crepe -->
+ <div class="modal fade" id="crepe-1" tabindex="-1" aria-labelledby="crepe" aria-hidden="true"> 
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="shop-item-title modal-title display-5" id="exampleModalLabel">Caramel Crepe</h3>
+    
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-7">
+                <img src="images/crepe-1.jpeg" class="" alt="caramel crepe" 
+                />
+              
+            </div>
+            <div class="col-5 ms-auto">
+
+              
+              <br>
+              <h5>Cooking/Prep Time:<h5>
+                <h6>30 mins</h6>
+                <br>
+
+                <h5>Serves:<h5>
+                  <h6>3-4 person</h6>
+                  <br>
+
+                <h5>Ingredients provided:</h5>
+                <p>
+                  <ul>
+                    <li>Flour</li>
+                    <li>Egg</li>
+                    <li>Lemon</li>
+                    <li>Whipping Cream</li>
+                    <li>Sugar</li>
+                    <li>Milk</li>
+                    <li>Vanilla Essence</li>
+                    <li>Baking Powder</li>
+                    <li>Butter</li>
+                   
+                  </ul>
+                </p>
+
+            </div>
+          </div>
+
+        </div>
+      <div class="modal-footer"> 
+
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Back</button> 
+
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!-- /Modal -  Caramel Crepe -->
+
+<!-- Modal - Blackberry Tart -->
+<div class="modal fade" id="tart-1" tabindex="-1" aria-labelledby="tart" aria-hidden="true"> 
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="shop-item-title modal-title display-5" id="exampleModalLabel">Blackberry Tart</h3>
+    
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-7">
+                <img src="images/tart-1.jpeg" class="" alt="blackberry tart" 
+                />
+              
+            </div>
+            <div class="col-5 ms-auto">
+
+              
+              <br>
+              <h5>Cooking/Prep Time:<h5>
+                <h6>50 mins</h6>
+                <br>
+
+                <h5>Serves:<h5>
+                  <h6>3-4 person</h6>
+                  <br>
+
+                <h5>Ingredients provided:</h5>
+                <p>
+                  <ul>
+                    <li>Flour</li>
+                    <li>Egg</li>
+                    <li>Blackberries</li>
+                    <li>Whipping Cream</li>
+                    <li>Sugar</li>
+                    <li>Milk</li>
+                    <li>Vanilla Essence</li>
+                    <li>Baking Powder</li>
+                    <li>Butter</li>
+                   
+                  </ul>
+                </p>
+
+            </div>
+          </div>
+
+        </div>
+      <div class="modal-footer"> 
+
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Back</button> 
+
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!-- /Modal -  Blackberry Tart -->
+
+
+
+
+    </main>
+    <footer>
+      <h6><span>&copy; 2021 Fresh Box </span></h6>
+    </footer>
+  
+  <script src="main.js" ></script>
+  </body>
+  </html>
+
+  

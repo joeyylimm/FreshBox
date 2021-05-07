@@ -1,0 +1,176 @@
+<!-- ======================
+  ITEM MODALS
+============================= -->
+
+
+  <!-- Modal - Salad -->
+  <!-- <div class="modal fade" id="salad" tabindex="-1" aria-labelledby="salad" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title display-5" id="exampleModalLabel">Caesar Salad</h3>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-7">
+                  <img src="images/food-1.jpeg" class="" alt="caesar salad" 
+                  />
+              </div>
+
+            <div class="col-5 ms-auto">
+
+                <h3 class="card-title badge bg-warning text-light" >New</h3>
+                <br>
+                <h5>Cooking/Prep Time:<h5>
+                  <h6>6 mins</h6>
+                  <br>
+
+                  <h5>Serves:<h5>
+                    <h6>1-2 people</h6>
+                    <br>
+
+                  <h5>Ingredients provided:</h5>
+                  <p>
+                    <ul>
+                      <li>Romaine lettuce</li>
+                      <li>Parmesan cheese</li>
+                      <li>Croutons</li>
+                      <li>Caesar salad dressing</li>
+                    </ul>
+                  </p>
+
+              </div>
+            </div>
+
+          </div>
+        <div class="modal-footer">
+          
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Back</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- /Modal - Salad -->
+
+  <!-- Modal - Pizza -->
+  <!-- <div class="modal fade" id="pizza" tabindex="-1" aria-labelledby="pizza" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class=" modal-content">
+        <div class="modal-header">
+          <h3 class=" modal-title display-5" id="exampleModalLabel">Olive & Basil Pizza</h3>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-7">
+                  <img src="images/food-2.jpeg" class="" alt="vegan pizza" 
+                  />
+                
+              </div>
+              <div class="col-5 ms-auto">
+                <h3 class="card-title badge bg-success text-light">Vegan</h3>
+                
+                <br>
+                <h5>Cooking/Prep Time:<h5>
+                  <h6>30 mins</h6>
+                  <br>
+                
+
+                  <h5>Serves:<h5>
+                    <h6>2-3 people</h6>
+                    <br>
+
+                  <h5>Ingredients provided:</h5>
+                  <p>
+                    <ul>
+                      <li>Pizza Crust</li>
+                      <li>Vegan cheese</li>
+                      <li>Tomato Sauce</li>
+                      <li>Olives</li>
+                      <li>Mushrooms</li>
+                      <li>Basil Leaves</li>
+                      <li>Chili Flakes</li>
+                    </ul>
+                  </p>
+
+              </div>
+            </div>
+
+          </div>
+        <div class="modal-footer">
+       
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Back</button> 
+
+        </div>
+      </div>
+    </div>
+  </div>
+  </div> -->
+  <!-- /Modal - Pizza -->
+
+
+  <!-- Modal - Pho -->
+  <!-- <div class="modal fade" id="pho" tabindex="-1" aria-labelledby="pho" aria-hidden="true"> 
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class=" modal-title display-5" id="exampleModalLabel">Seafood Pho</h3>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-7">
+                  <img src="images/food-3.jpeg" class="" alt="seafood pho" 
+                  />
+                
+              </div>
+              <div class="col-5 ms-auto">
+
+                <h3 class="card-title badge bg-danger text-light">Spicy</h3>
+                <br>
+                <h5>Cooking/Prep Time:<h5>
+                  <h6>15 mins</h6>
+                  <br>
+
+                  <h5>Serves:<h5>
+                    <h6>1 person</h6>
+                    <br>
+
+                  <h5>Ingredients provided:</h5>
+                  <p>
+                    <ul>
+                      <li>Rice Noodles</li>
+                      <li>Chicken Stock</li>
+                      <li>Prawns</li>
+                      <li>Squid</li>
+                      <li>Chili</li>
+                      <li>Lime</li>
+                      <li>Soy Sauce</li>
+                      <li>Fish Sauce</li>
+                      <li>Onion</li>
+                      <li>Pepper</li>
+                      <li>Thai Basil Leaves</li>
+                    </ul>
+                  </p>
+
+              </div>
+            </div>
+
+          </div>
+        <div class="modal-footer"> -->
+          <!-- <button type="button" class="btn btn-success">Add to Cart</button>-->
+          <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Back</button> 
+
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- /Modal - Pho -->
+ 

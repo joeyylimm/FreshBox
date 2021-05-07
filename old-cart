@@ -1,0 +1,45 @@
+<!-- ====================\
+VIEW CART 
+==================== -->
+
+
+  <div class="cart">
+    <section class="cart" id="view-cart"></section>
+    <h1 class="display-3">Your Cart</h1>
+    <br />
+
+    <section class="container content-section">
+
+      <div class="cart-row">
+          <span class="cart-item cart-header cart-column">ITEM</span>
+          <span class="cart-price cart-header cart-column">PRICE</span>
+          <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+      </div>
+
+    <div class="cart-items">
+      <!-- <div class="cart-row">
+        <div class="cart-item cart-column">
+            <img class="cart-item-image" src="images/food-1.jpeg" width="100" > 
+            <span class="cart-item-title">Caesar Salad</span>
+        </div>
+        <span class="cart-price cart-column">$8.99</span>
+                <div class="cart-quantity cart-column">
+                    <input class="cart-quantity-input" type="number" value="1">
+                    <button class="remove-btn btn btn-danger" type="button">REMOVE</button>
+                </div>
+      </div> -->
+    
+
+    
+    
+      
+    </div>
+    
+
+    <div class="cart-total">
+      <strong class="cart-total-title">Total</strong>
+      <span class="cart-total-price">$ 0.00</span>
+  </div>
+  <a class='checkout-btn' href="payment.html"><button class="btn btn-success btn-purchase" type="button">Check Out</button></a>
+   
+</section>
